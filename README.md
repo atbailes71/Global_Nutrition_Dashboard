@@ -11,11 +11,11 @@
 
 ## The Problem This Project Addresses
 
-National nutrition information systems in low- and middle-income countries are typically built around a single data source — a household survey, or a routine HMIS — and focused on a single indicator category (usually child anthropometry). The result is fragmented monitoring that cannot link nutrition outcomes to the determinants that drive them.
+National nutrition information systems in low- and middle-income countries are typically built around a single data source: a household survey, or a routine HMIS, and focused on a single indicator category (usually child anthropometry). The result is fragmented monitoring that cannot link nutrition outcomes to the determinants that drive them.
 
-This project takes a different approach. It organizes global public data across all three levels of the **UNICEF 2020 Conceptual Framework on the Determinants of Maternal and Child Nutrition**: outcomes, underlying determinants, and enabling environment — and asks a single practical question:
+This project takes a different approach. It organizes global public data across all three levels of the **UNICEF 2020 Conceptual Framework on the Determinants of Maternal and Child Nutrition**: outcomes, underlying determinants, and enabling environment - and asks a single practical question:
 
-> *Are countries collecting the right indicators, from the right sources, at the right frequency — to actually monitor the full causal chain that drives nutrition outcomes?*
+> *Are countries collecting the right indicators, from the right sources, at the right frequency - to actually monitor the full causal chain that drives nutrition outcomes?*
 
 The answer, for most countries, is no. This project makes that gap visible.
 
