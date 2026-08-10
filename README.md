@@ -82,7 +82,10 @@ A national nutrition information system that only tracks Layer 1 outcomes cannot
 ![Data Recency](outputs/figures/fig03_data_recency_heatmap.png)
 
 ### Layer 2: IYCF Regional Dashboard
-![IYCF Dashboard](outputs/figures/fig04_iycf_regional_dashboard.png)
+Global medians (most recent data): Early BF Initiation 52.9% · Exclusive BF 43.2% · 
+Minimum Dietary Diversity 26.9% · Minimum Meal Frequency 51.0% · Minimum Acceptable Diet 14.6%
+
+*Full regional breakdown available in the Tableau Public dashboard (link above).*
 
 ### Layer 2 & 3: Cross-Layer — EBF vs Stunting
 ![EBF vs Stunting](outputs/figures/fig06_cross_layer_ebf_stunting.png)
