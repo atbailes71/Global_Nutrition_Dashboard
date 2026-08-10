@@ -23,7 +23,7 @@ The answer, for most countries, is no. This project makes that gap visible.
 
 ## Project Context
 
-This project was developed in preparation for applying to the UNICEF Nutrition Monitoring Guide Consultant position (ToR reference TMC0005123, August 2026). The consultancy calls for development of a global guide consolidating nutrition indicators for national information systems across the same thematic domains analyzed here.
+This project was developed as part of an active job search in global health data and nutrition analytics roles, where demonstrating fluency with international nutrition indicator frameworks and data systems is directly relevant to the positions being pursued.
 
 The analytical approach — framing indicator selection and gap analysis within the UNICEF Conceptual Framework — reflects the methodological structure of the ToR deliverables: conceptual framework (scope item 1), finalized indicator list with selection criteria (scope item 2), and indicator reference sheets (scope item 3).
 
