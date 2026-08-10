@@ -1,0 +1,18 @@
+# Data files — not committed (large, download locally)
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+.env
+
+# Outputs — figures and tables committed (small PNG and CSV files)
+# outputs/ tracked intentionally
+
+# OS
+.DS_Store
+Thumbs.db

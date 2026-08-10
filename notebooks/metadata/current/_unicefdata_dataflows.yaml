@@ -1,0 +1,387 @@
+_metadata:
+  platform: python
+  version: 2.0.0
+  synced_at: '2026-08-10T00:12:35.309382+00:00'
+  source: https://sdmx.data.unicef.org/ws/public/sdmxapi/rest/dataflow/UNICEF?references=none&detail=full
+  agency: UNICEF
+  content_type: dataflows
+  total_dataflows: 42
+dataflows:
+  CAUSE_OF_DEATH:
+    id: CAUSE_OF_DEATH
+    name: Cause of death
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308726Z'
+  CCRI:
+    id: CCRI
+    name: Children’s Climate and Environment Risk Index
+    agency: UNICEF
+    version: '1.0'
+    description: Children’s Climate and Environment Risk Index (CCRI)
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308760Z'
+  CHILD_RELATED_SDG:
+    id: CHILD_RELATED_SDG
+    name: Child-related SDGs 2020
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308778Z'
+  CHLD_PVTY:
+    id: CHLD_PVTY
+    name: Child Poverty
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308792Z'
+  CME:
+    id: CME
+    name: Child Mortality
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308806Z'
+  CME_CAUSE_OF_DEATH:
+    id: CME_CAUSE_OF_DEATH
+    name: CME Cause of death
+    agency: UNICEF
+    version: '1.0'
+    description: CME Causes of death. Data source is JHU.
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308820Z'
+  CME_COUNTRY_PROFILES_DATA:
+    id: CME_COUNTRY_PROFILES_DATA
+    name: CME Country profiles data
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308833Z'
+  CME_DF_2021_WQ:
+    id: CME_DF_2021_WQ
+    name: IGME Child Mortality Estimates wq
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308847Z'
+  CME_SUBNATIONAL:
+    id: CME_SUBNATIONAL
+    name: CME Subnational Data
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308860Z'
+  DM:
+    id: DM
+    name: Demography
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308872Z'
+  DM_PROJECTIONS:
+    id: DM_PROJECTIONS
+    name: Projection Demography
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308884Z'
+  ECD:
+    id: ECD
+    name: Early Childhood Development
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308897Z'
+  ECONOMIC:
+    id: ECONOMIC
+    name: Economic
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308910Z'
+  EDUCATION:
+    id: EDUCATION
+    name: EDU - Access and Completion (HH Survey Data)
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308922Z'
+  EDUCATION_FLS:
+    id: EDUCATION_FLS
+    name: EDU - Learning and Skills
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308934Z'
+  EDUCATION_LG:
+    id: EDUCATION_LG
+    name: Education - Learning Gradient (MICS FLS)
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308946Z'
+  EDUCATION_UIS_SDG:
+    id: EDUCATION_UIS_SDG
+    name: EDU - SDG Indicators (UIS Database)
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308958Z'
+  FUNCTIONAL_DIFF:
+    id: FUNCTIONAL_DIFF
+    name: Functional difficulties
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308971Z'
+  GENDER:
+    id: GENDER
+    name: Gender
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308982Z'
+  GLOBAL_DATAFLOW:
+    id: GLOBAL_DATAFLOW
+    name: Cross-sector indicators
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.308995Z'
+  HAZARD_EXPOSURE:
+    id: HAZARD_EXPOSURE
+    name: '[DRAFT] Hazard exposure'
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309007Z'
+  HAZARD_INTENSITY:
+    id: HAZARD_INTENSITY
+    name: '[DRAFT] Hazard Intensity'
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309019Z'
+  HAZARD_POPULATION:
+    id: HAZARD_POPULATION
+    name: '[DRAFT] Hazard Population'
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309031Z'
+  HIV_AIDS:
+    id: HIV_AIDS
+    name: HIV/AIDS
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309043Z'
+  IMMUNISATION:
+    id: IMMUNISATION
+    name: Immunisation
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309052Z'
+  MG:
+    id: MG
+    name: Migration
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309061Z'
+  MG_FLOW:
+    id: MG_FLOW
+    name: Migration Flow
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309072Z'
+  MNCH:
+    id: MNCH
+    name: Maternal, child and newborn health
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309081Z'
+  NUTRITION:
+    id: NUTRITION
+    name: Nutrition
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309091Z'
+  PT:
+    id: PT
+    name: Child Protection
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309101Z'
+  PT_CM:
+    id: PT_CM
+    name: Child Marriage
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309110Z'
+  PT_CM_SUBNATIONAL:
+    id: PT_CM_SUBNATIONAL
+    name: Child Marriage - Subnational
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309120Z'
+  PT_CONFLICT:
+    id: PT_CONFLICT
+    name: Children Exposed to Conflict
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309129Z'
+  PT_FGM:
+    id: PT_FGM
+    name: Child Protection FGM
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309139Z'
+  SDG_PROG_ASSESSMENT:
+    id: SDG_PROG_ASSESSMENT
+    name: SDG Progress assessment
+    agency: UNICEF
+    version: '1.1'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309148Z'
+  SOC_PROTECTION:
+    id: SOC_PROTECTION
+    name: Social protection
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309158Z'
+  WASH_HEALTHCARE_FACILITY:
+    id: WASH_HEALTHCARE_FACILITY
+    name: WASH Healthcare Facility
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309167Z'
+  WASH_HOUSEHOLDS:
+    id: WASH_HOUSEHOLDS
+    name: WASH Households
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309177Z'
+  WASH_HOUSEHOLD_MH:
+    id: WASH_HOUSEHOLD_MH
+    name: WASH Household Menstrual Health
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309187Z'
+  WASH_HOUSEHOLD_SUBNAT:
+    id: WASH_HOUSEHOLD_SUBNAT
+    name: WASH Household subnational
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309196Z'
+  WASH_SCHOOLS:
+    id: WASH_SCHOOLS
+    name: WASH Schools
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309206Z'
+  WT:
+    id: WT
+    name: Transition to Work
+    agency: UNICEF
+    version: '1.0'
+    description: null
+    dimensions: null
+    indicators: null
+    last_updated: '2026-08-10T00:12:35.309215Z'
