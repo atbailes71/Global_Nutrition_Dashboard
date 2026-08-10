@@ -22,7 +22,7 @@ Conceptual Framework layer.
 
 ---
 
-## LAYER 2: UNDERLYING DETERMINANTS
+## LAYER 2: IMMEDIATE DETERMINANTS
 
 ### 2A. Diets and Care — IYCF Indicators
 *(All definitions per WHO/UNICEF Indicators for Assessing IYCF Practices, 2021)*
@@ -38,7 +38,9 @@ Conceptual Framework layer.
 
 **Note on MDD:** 2021 update raised cut-off from ≥4/7 food groups (2008) to ≥5/8 food groups. MDD-C (≥5/8 food groups) is now SDG indicator 2.2.4 (approved March 2025).
 
-### 2B. Services — Health and Programme Coverage
+## LAYER 3: UNDERLYING DETERMINANTS
+
+### 3A. Services — Health and Programme Coverage
 
 | Code | Indicator | Definition | Source |
 |---|---|---|---|
@@ -50,7 +52,7 @@ Conceptual Framework layer.
 
 ---
 
-## LAYER 3: ENABLING ENVIRONMENT
+## LAYER 4: ENABLING ENVIRONMENT
 
 See `outputs/tables/layer3_enabling_environment_toolkit.csv` for the full reference
 table with definitions, recommended data sources, collection frequency, and current

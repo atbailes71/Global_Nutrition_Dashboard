@@ -101,7 +101,7 @@ if df_sofi is not None:
     sofi_indicators = ['PoU', 'Prevalence of moderate or severe food insecurity',
                        'MDD-C', 'MDD-W', 'Food insecurity']
     df_sofi['source'] = 'FAO SOFI 2025'
-    df_sofi['framework_layer'] = 'Layer 2: Underlying Determinants'
+    df_sofi['framework_layer'] = 'Layer 2: Immediate Determinants'
     df_sofi.to_csv(f'{DATA_PROC}/fao_sofi_clean.csv', index=False)
 
 # --- WFP VAM ---
@@ -109,7 +109,7 @@ df_wfp = safe_load(f'{DATA_RAW}/wfp_vam_food_security.csv', 'WFP VAM Food Securi
 if df_wfp is not None:
     df_wfp.columns = [c.strip().lower().replace(' ', '_') for c in df_wfp.columns]
     df_wfp['source'] = 'WFP VAM'
-    df_wfp['framework_layer'] = 'Layer 2: Underlying Determinants'
+    df_wfp['framework_layer'] = 'Layer 2: Immediate Determinants'
     df_wfp.to_csv(f'{DATA_PROC}/wfp_vam_clean.csv', index=False)
 
 # --- JMP WASH ---
@@ -117,7 +117,7 @@ df_jmp = safe_load(f'{DATA_RAW}/jmp_wash_estimates.xlsx', 'JMP WASH', 'excel')
 if df_jmp is not None:
     df_jmp.columns = [c.strip() for c in df_jmp.columns]
     df_jmp['source'] = 'WHO/UNICEF JMP'
-    df_jmp['framework_layer'] = 'Layer 2: Underlying Determinants'
+    df_jmp['framework_layer'] = 'Layer 2: Immediate Determinants'
     df_jmp.to_csv(f'{DATA_PROC}/jmp_wash_clean.csv', index=False)
 
 # --- WHO GINA ---
@@ -125,7 +125,7 @@ df_gina = safe_load(f'{DATA_RAW}/who_gina_policies.xlsx', 'WHO GINA', 'excel')
 if df_gina is not None:
     df_gina.columns = [c.strip() for c in df_gina.columns]
     df_gina['source'] = 'WHO GINA'
-    df_gina['framework_layer'] = 'Layer 3: Enabling Environment'
+    df_gina['framework_layer'] = 'Layer 4: Enabling Environment'
     df_gina.to_csv(f'{DATA_PROC}/who_gina_clean.csv', index=False)
 
 # --- WHO Breastfeeding Scorecard ---
@@ -133,7 +133,7 @@ df_bfsc = safe_load(f'{DATA_RAW}/who_bf_scorecard.xlsx', 'WHO BF Scorecard', 'ex
 if df_bfsc is not None:
     df_bfsc.columns = [c.strip() for c in df_bfsc.columns]
     df_bfsc['source'] = 'WHO Global BF Scorecard'
-    df_bfsc['framework_layer'] = 'Layer 3: Enabling Environment'
+    df_bfsc['framework_layer'] = 'Layer 4: Enabling Environment'
     df_bfsc.to_csv(f'{DATA_PROC}/who_bfsc_clean.csv', index=False)
 
 # --- ILO Social Protection ---
@@ -141,7 +141,7 @@ df_ilo = safe_load(f'{DATA_RAW}/ilo_social_protection.xlsx', 'ILO Social Protect
 if df_ilo is not None:
     df_ilo.columns = [c.strip() for c in df_ilo.columns]
     df_ilo['source'] = 'ILO'
-    df_ilo['framework_layer'] = 'Layer 3: Enabling Environment'
+    df_ilo['framework_layer'] = 'Layer 4: Enabling Environment'
     df_ilo.to_csv(f'{DATA_PROC}/ilo_sp_clean.csv', index=False)
 
 

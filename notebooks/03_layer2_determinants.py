@@ -98,7 +98,7 @@ df_iycf_global = (df_iycf
 fig, axes = plt.subplots(2, 3, figsize=(16, 10))
 fig.suptitle(
     'IYCF Indicators — Regional Coverage Estimates (Most Recent Data)\n'
-    'UNICEF Conceptual Framework — Layer 2: Underlying Determinants (Diets and Care)',
+    'UNICEF Conceptual Framework — Layer 2: Immediate Determinants (Diets and Care)',
     fontsize=12, fontweight='bold'
 )
 
@@ -163,7 +163,6 @@ for idx, (code, short) in enumerate(IYCF_CODES.items()):
 plt.tight_layout()
 plt.savefig(f'{FIGURES}/fig04_iycf_regional_dashboard.png',
             bbox_inches='tight', dpi=150)
-plt.show()
 plt.close()
 print("  Saved: fig04_iycf_regional_dashboard.png")
 
@@ -208,7 +207,7 @@ ax.set_ylabel('Coverage (%)', fontsize=10)
 ax.set_ylim(0, 110)
 ax.set_title(
     'Health and Nutrition Services Coverage by Region (Most Recent Data)\n'
-    'UNICEF Conceptual Framework — Layer 2: Underlying Determinants (Services)',
+    'UNICEF Conceptual Framework — Layer 2: Immediate Determinants (Services)',
     fontweight='bold'
 )
 ax.legend(loc='lower right', fontsize=8, ncol=2)
@@ -218,7 +217,6 @@ ax.axhline(80, color='green', linestyle='--', alpha=0.5,
 plt.tight_layout()
 plt.savefig(f'{FIGURES}/fig05_services_coverage_by_region.png',
             bbox_inches='tight', dpi=150)
-plt.show()
 plt.close()
 print("  Saved: fig05_services_coverage_by_region.png")
 
@@ -274,7 +272,6 @@ ax.legend(fontsize=8, loc='upper right')
 plt.tight_layout()
 plt.savefig(f'{FIGURES}/fig06_cross_layer_ebf_stunting.png',
             bbox_inches='tight', dpi=150)
-plt.show()
 plt.close()
 print("  Saved: fig06_cross_layer_ebf_stunting.png")
 

@@ -27,15 +27,19 @@ The UNICEF Conceptual Framework (2020) is the global standard for understanding 
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│ LAYER 3: ENABLING ENVIRONMENT                                   │
-│   Governance (policies, budgets, laws)                          │
+│ LAYER 4: ENABLING ENVIRONMENT                                   │
+│   Governance (policies, budgets, laws, multisectoral coord.)    │
 │   Resources (health workers, social protection, financing)      │
 │   Norms (gender equity, food environment, breastfeeding support)│
 ├─────────────────────────────────────────────────────────────────┤
-│ LAYER 2: UNDERLYING DETERMINANTS                                │
-│   Food (dietary diversity, food security, MDD-W)                │
-│   Practices (IYCF — EBF, MDD, MMF, MAD)                        │
+│ LAYER 3: UNDERLYING DETERMINANTS                                │
+│   Food (food security — FCS, PoU, FIES, MDD-W)                 │
 │   Services (ANC, skilled birth attendance, SAM treatment, VAS)  │
+│   WASH (safely managed water and sanitation)                    │
+├─────────────────────────────────────────────────────────────────┤
+│ LAYER 2: IMMEDIATE DETERMINANTS                                 │
+│   Diets (IYCF — MDD, MMF, MAD, dietary diversity)              │
+│   Care (EBF, EIBF, continued BF, feeding practices)            │
 ├─────────────────────────────────────────────────────────────────┤
 │ LAYER 1: NUTRITION OUTCOMES (WHA 6 TARGETS)                     │
 │   Stunting · Wasting · Overweight · Anaemia (WRA)               │
@@ -63,12 +67,13 @@ A national nutrition information system that only tracks Layer 1 outcomes cannot
 | Layer | Indicator Domain | Source | Access |
 |---|---|---|---|
 | Layer 1 | WHA 6 Targets (stunting, wasting, overweight, anaemia, EBF, LBW) | UNICEF SDMX API via `unicefdata` Python package | Public |
-| Layer 2 | IYCF (EBF, MDD, MMF, MAD, EIBF, continued BF) | UNICEF SDMX API | Public |
-| Layer 2 | Health services (ANC, SBA, DTP3, VAS, SAM treatment) | UNICEF SDMX API | Public |
-| Layer 2 | Food security (PoU, MDD-C, MDD-W, cost of healthy diet) | FAO SOFI 2025 Data Annex | Public download |
-| Layer 2 | WASH (safely managed water and sanitation) | WHO/UNICEF JMP | Public download |
-| Layer 3 | Policy and governance | WHO GINA; WHO BF Scorecard | Public download |
-| Layer 3 | Social protection | ILO ILOSTAT | Public download |
+| Layer 2 | IYCF — Diets (MDD, MMF, MAD, EIBF, continued BF) | UNICEF SDMX API | Public |
+| Layer 2 | IYCF — Care (EBF, early initiation, breastfeeding practices) | UNICEF SDMX API | Public |
+| Layer 3 | Food security (PoU, MDD-C, MDD-W, cost of healthy diet) | FAO SOFI 2025 Data Annex | Public download |
+| Layer 3 | Health services (ANC, SBA, DTP3, VAS, SAM treatment) | UNICEF SDMX API | Public |
+| Layer 3 | WASH (safely managed water and sanitation) | WHO/UNICEF JMP | Public download |
+| Layer 4 | Policy and governance | WHO GINA; WHO BF Scorecard | Public download |
+| Layer 4 | Social protection | ILO ILOSTAT | Public download |
 | Layer 3 | Food fortification legislation | Food Fortification Initiative | Public |
 
 All data sources are freely available. No data was purchased or licensed.
@@ -126,12 +131,12 @@ All data sources are freely available. No data was purchased or licensed.
 *[Link to be added upon publication to Tableau Public]*
 
 Dashboard pages:
-1. **Framework Overview** — three-layer UNICEF Conceptual Framework with indicator mapping
-2. **WHA 6 Targets** — world map + regional trend lines + 2030 target progress
-3. **IYCF Indicators** — regional coverage dashboard
-4. **Health Services** — coverage by region and income group
-5. **Data Gap Assessment** — country-level NIS readiness heatmap
-6. **Enabling Environment Toolkit** — interactive indicator reference
+1. **Framework Overview** — four-layer UNICEF Conceptual Framework with indicator mapping
+2. **WHA 6 Targets (Layer 1)** — world map + regional trend lines + 2030 target progress
+3. **Immediate Determinants (Layer 2)** — IYCF regional coverage dashboard
+4. **Underlying Determinants (Layer 3)** — food security, health services, WASH coverage
+5. **Data Gap Assessment** — country-level NIS readiness heatmap across all layers
+6. **Enabling Environment Toolkit (Layer 4)** — interactive policy indicator reference
 
 ---
 

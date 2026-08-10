@@ -8,8 +8,9 @@
 # -------
 # This script pulls all data required for the three-layer analysis:
 #   Layer 1 — Nutrition Outcomes (WHA 6 Targets)
-#   Layer 2 — Underlying Determinants (IYCF, Food Security, Health Services)
-#   Layer 3 — Enabling Environment (Policy indicators — manual download required)
+#   Layer 2 — Immediate Determinants (IYCF: diets and care)
+#   Layer 3 — Underlying Determinants (food security, health services, WASH)
+#   Layer 4 — Enabling Environment (Policy indicators — manual download required)
 #
 # HOW TO RUN
 # ----------
@@ -96,7 +97,7 @@ INDICATORS = {
     # UNICEF Conceptual Framework (services dimension).
     # -------------------------------------------------------------------------
 
-    'MNCH_ANC4':            'ANC 4+ visits coverage, %',
+    'MNCH_ANC4':           'Layer 3: Underlying Determinants',
     'MNCH_SAB':             'Skilled birth attendance, %',
     'IM_DTP3':              'DTP3 immunisation coverage, % (proxy for health system reach)',
 
@@ -131,14 +132,21 @@ for code, label in INDICATORS.items():
         )
         if len(df) > 0:
             df['indicator_label'] = label
-            df['framework_layer'] = (
-                'Layer 1: Nutrition Outcomes' if code in [
-                    'NT_ANT_HAZ_NE2_MOD', 'NT_ANT_WHZ_NE2_MOD',
-                    'NT_ANT_WHZ_PO2_MOD', 'NT_ANE_WOM_15_49_MOD',
-                    'NT_BF_EXBF', 'NT_BW_LBW'
-                ]
-                else 'Layer 2: Underlying Determinants'
-            )
+            LAYER1 = ['NT_ANT_HAZ_NE2_MOD','NT_ANT_WHZ_NE2_MOD',
+                      'NT_ANT_WHZ_PO2_MOD','NT_ANE_WOM_15_49_MOD',
+                      'NT_BF_EXBF','NT_BW_LBW']
+            LAYER2 = ['NT_BF_EIBF','NT_BF_EXBF','NT_BF_CBF12_23',
+                      'NT_CF_MAD','NT_CF_MDD','NT_CF_MMF']
+            LAYER3 = ['MNCH_ANC4','MNCH_SAB','IM_DTP3',
+                      'NT_SAM_TR','NT_VAS_12_59']
+            if code in LAYER1:
+                df['framework_layer'] = 'Layer 1: Nutrition Outcomes'
+            elif code in LAYER2:
+                df['framework_layer'] = 'Layer 2: Immediate Determinants'
+            elif code in LAYER3:
+                df['framework_layer'] = 'Layer 3: Underlying Determinants'
+            else:
+                df['framework_layer'] = 'Layer 3: Underlying Determinants'
             dfs.append(df)
             print(f"    OK — {len(df)} rows, {df['iso3'].nunique()} countries")
         else:

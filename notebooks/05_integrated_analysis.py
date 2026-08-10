@@ -159,7 +159,6 @@ ax.tick_params(axis='y', rotation=0, labelsize=9)
 plt.tight_layout()
 plt.savefig(f'{FIGURES}/fig08_comprehensive_gap_heatmap.png',
             bbox_inches='tight', dpi=150)
-plt.show()
 plt.close()
 print("  Saved: fig08_comprehensive_gap_heatmap.png")
 
@@ -255,7 +254,6 @@ ax.legend(fontsize=8)
 plt.tight_layout()
 plt.savefig(f'{FIGURES}/fig09_nis_readiness_by_region.png',
             bbox_inches='tight', dpi=150)
-plt.show()
 plt.close()
 print("  Saved: fig09_nis_readiness_by_region.png")
 

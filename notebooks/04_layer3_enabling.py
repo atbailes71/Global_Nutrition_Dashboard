@@ -349,7 +349,6 @@ ax2.tick_params(axis='y', labelsize=8)
 plt.tight_layout()
 plt.savefig(f'{FIGURES}/fig07_enabling_environment_toolkit.png',
             bbox_inches='tight', dpi=150)
-plt.show()
 plt.close()
 print("  Saved: fig07_enabling_environment_toolkit.png")
 
@@ -398,7 +397,7 @@ df_toolkit.to_csv(f'{TABLES}/tableau_layer3_toolkit.csv', index=False)
 
 # Summary table for dashboard
 summary = pd.DataFrame({
-    'Framework Layer':    ['Layer 3: Enabling Environment'] * 3,
+    'Framework Layer':    ['Layer 4: Enabling Environment'] * 3,
     'Dimension':          ['Governance', 'Resources', 'Norms'],
     'Indicators in toolkit': [
         len(df_toolkit[df_toolkit['dimension'] == 'Governance']),
