@@ -13,7 +13,7 @@
 
 National nutrition information systems in low- and middle-income countries are typically built around a single data source: a household survey, or a routine HMIS, and focused on a single indicator category (usually child anthropometry). The result is fragmented monitoring that cannot link nutrition outcomes to the determinants that drive them.
 
-This project takes a different approach. It organizes global public data across all four levels of the **UNICEF 2020 Conceptual Framework on the Determinants of Maternal and Child Nutrition**: outcomes, underlying determinants, and enabling environment - and asks a single practical question:
+This project takes a different approach. It organizes global public data across all four levels of the **UNICEF 2020 Conceptual Framework on the Determinants of Maternal and Child Nutrition**: outcomes, immediate determinants, underlying determinants, and enabling environment - and asks a single practical question:
 
 > *Are countries collecting the right indicators, from the right sources, at the right frequency - to actually monitor the full causal chain that drives nutrition outcomes?*
 
@@ -23,8 +23,7 @@ The answer, for most countries, is no. This project makes that gap visible.
 
 ## Project Context
 
-This project was developed in preparation for applying to the UNICEF Nutrition Monitoring Guide Consultant position (ToR reference TMC0005123, August 2026). 
-The consultancy calls for development of a global guide consolidating nutrition indicators for national information systems across the same thematic domains analyzed here.
+This project was developed in preparation for applying to the UNICEF Nutrition Monitoring Guide Consultant position (ToR reference TMC0005123, August 2026). The consultancy calls for development of a global guide consolidating nutrition indicators for national information systems across the same thematic domains analyzed here.
 
 The analytical approach — framing indicator selection and gap analysis within the UNICEF Conceptual Framework — reflects the methodological structure of the ToR deliverables: conceptual framework (scope item 1), finalized indicator list 
 with selection criteria (scope item 2), and indicator reference sheets (scope item 3).
