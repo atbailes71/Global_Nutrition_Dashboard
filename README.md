@@ -70,6 +70,34 @@ A national nutrition information system that only tracks Layer 1 outcomes cannot
 
 ---
 
+## Dashboard Figures
+
+### Layer 1: WHA 6 Target Trends by Region
+![WHA 6 Targets](outputs/figures/fig01_wha6_regional_trends.png)
+
+### Layer 1: Country Progress Classification
+![Country Progress](outputs/figures/fig02_country_progress_classification.png)
+
+### Layer 1 & 2: Data Recency Heatmap
+![Data Recency](outputs/figures/fig03_data_recency_heatmap.png)
+
+### Layer 2: IYCF Regional Dashboard
+![IYCF Dashboard](outputs/figures/fig04_iycf_regional_dashboard.png)
+
+### Layer 2 & 3: Cross-Layer — EBF vs Stunting
+![EBF vs Stunting](outputs/figures/fig06_cross_layer_ebf_stunting.png)
+
+### Layer 4: Enabling Environment Toolkit
+![Enabling Environment](outputs/figures/fig07_enabling_environment_toolkit.png)
+
+### All Layers: NIS Data Gap Heatmap
+![Data Gap Heatmap](outputs/figures/fig08_comprehensive_gap_heatmap.png)
+
+### All Layers: NIS Readiness by Region
+![NIS Readiness](outputs/figures/fig09_nis_readiness_by_region.png)
+
+
+
 ## Data Sources
 
 | Layer | Indicator Domain | Source | Access |
