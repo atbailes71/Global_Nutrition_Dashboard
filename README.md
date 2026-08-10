@@ -13,7 +13,7 @@
 
 National nutrition information systems in low- and middle-income countries are typically built around a single data source: a household survey, or a routine HMIS, and focused on a single indicator category (usually child anthropometry). The result is fragmented monitoring that cannot link nutrition outcomes to the determinants that drive them.
 
-This project takes a different approach. It organizes global public data across all three levels of the **UNICEF 2020 Conceptual Framework on the Determinants of Maternal and Child Nutrition**: outcomes, underlying determinants, and enabling environment - and asks a single practical question:
+This project takes a different approach. It organizes global public data across all four levels of the **UNICEF 2020 Conceptual Framework on the Determinants of Maternal and Child Nutrition**: outcomes, underlying determinants, and enabling environment - and asks a single practical question:
 
 > *Are countries collecting the right indicators, from the right sources, at the right frequency - to actually monitor the full causal chain that drives nutrition outcomes?*
 
@@ -23,7 +23,7 @@ The answer, for most countries, is no. This project makes that gap visible.
 
 ## Why This Framework
 
-The UNICEF Conceptual Framework (2020) is the global standard for understanding causes of malnutrition. It organizes determinants into three levels:
+The UNICEF Conceptual Framework (2020) is the global standard for understanding causes of malnutrition. It organizes determinants into four levels:
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
@@ -47,7 +47,7 @@ The UNICEF Conceptual Framework (2020) is the global standard for understanding 
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-A national nutrition information system that only tracks Layer 1 outcomes cannot identify why those outcomes are not improving. This project demonstrates what a full three-layer monitoring system looks like in practice.
+A national nutrition information system that only tracks Layer 1 outcomes cannot identify why those outcomes are not improving. This project demonstrates what a full four-layer monitoring system looks like in practice.
 
 ---
 
@@ -74,7 +74,7 @@ A national nutrition information system that only tracks Layer 1 outcomes cannot
 | Layer 3 | WASH (safely managed water and sanitation) | WHO/UNICEF JMP | Public download |
 | Layer 4 | Policy and governance | WHO GINA; WHO BF Scorecard | Public download |
 | Layer 4 | Social protection | ILO ILOSTAT | Public download |
-| Layer 3 | Food fortification legislation | Food Fortification Initiative | Public |
+| Layer 4 | Food fortification legislation | Food Fortification Initiative | Public |
 
 All data sources are freely available. No data was purchased or licensed.
 
@@ -87,8 +87,8 @@ All data sources are freely available. No data was purchased or licensed.
 │   ├── 00_data_acquisition.py     # API pulls + manual download instructions
 │   ├── 01_data_cleaning.py        # Cleaning, harmonization, gap matrix
 │   ├── 02_layer1_outcomes.py      # WHA 6 Target analysis and visualization
-│   ├── 03_layer2_determinants.py  # IYCF, food security, services analysis
-│   ├── 04_layer3_enabling.py      # Enabling environment toolkit + analysis
+│   ├── 03_layer2_determinants.py  # Layer 2: Immediate determinants (IYCF) + Layer 3: Underlying determinants
+│   ├── 04_layer3_enabling.py      # Layer 4: Enabling environment toolkit + analysis
 │   └── 05_integrated_analysis.py  # Cross-layer synthesis and NIS readiness
 ├── data/
 │   ├── raw/                       # Raw downloads (not committed to GitHub)
