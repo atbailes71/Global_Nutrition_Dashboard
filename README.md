@@ -170,7 +170,7 @@ All data sources are freely available. No data was purchased or licensed.
 
 ## Tableau Dashboard
 
-*[[Link to be added upon publication to Tableau Public]](https://public.tableau.com/views/GlobalNutritionMonitoringFrameworkAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)*
+**[View Interactive Global Nutrition Monitoring Framework Analysis Dashboard on Tableau Public](https://public.tableau.com/views/GlobalNutritionMonitoringFrameworkAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 Dashboard pages:
 
