@@ -7,7 +7,7 @@
 [![Data](https://img.shields.io/badge/Data-UNICEF%20SDMX%20%7C%20WHO%20%7C%20FAO%20%7C%20WFP-green.svg)](https://data.unicef.org/)
 [![Dashboard](https://img.shields.io/badge/Dashboard-Tableau%20Public-orange.svg)](#tableau-dashboard)
 
-**[View Interactive Dashboard on Tableau Public →][(YOUR_TABLEAU_URL_HERE)](https://public.tableau.com/views/GlobalNutritionMonitoringFrameworkAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
+**[View Interactive GNMF Analysis Dashboard on Tableau Public →](https://public.tableau.com/views/GlobalNutritionMonitoringFrameworkAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)**
 
 ---
 ---
