@@ -170,15 +170,12 @@ All data sources are freely available. No data was purchased or licensed.
 
 ## Tableau Dashboard
 
-*[Link to be added upon publication to Tableau Public]*
+*[[Link to be added upon publication to Tableau Public]](https://public.tableau.com/views/GlobalNutritionMonitoringFrameworkAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)*
 
 Dashboard pages:
-1. **Framework Overview** — four-level UNICEF Conceptual Framework with indicator mapping
-2. **WHA 6 Targets (Level 1)** — world map + regional trend lines + 2030 target progress
-3. **Immediate Determinants (Level 2)** — IYCF regional coverage dashboard
-4. **Underlying Determinants (Level 3)** — food security, health services, WASH coverage
-5. **Data Gap Assessment** — country-level NIS readiness heatmap across all levels
-6. **Enabling Environment Toolkit (Level 4)** — interactive policy indicator reference
+
+1. **Nutrition Outcomes Map** — interactive world map of 16 GNMF-aligned indicators across all four levels of the UNICEF Conceptual Framework; NIS Readiness Score by region
+2. **Trend Analysis** — WHA global nutrition target trends by region (2000-2024); data recency assessment by region and indicator
 
 
 ---
