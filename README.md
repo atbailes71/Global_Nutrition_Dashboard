@@ -1,5 +1,5 @@
 # Global Nutrition Monitoring Framework Dashboard
-### A Four-Layer Analysis Built on the UNICEF Conceptual Framework on the Determinants of Maternal and Child Nutrition
+### A Four-Level Analysis Built on the UNICEF Conceptual Framework on the Determinants of Maternal and Child Nutrition
 
 **Adam T. Bailes, MPH** | MS Data Science (in progress, Boston University) | August 2026
 
@@ -14,7 +14,7 @@
 
 ## The Problem This Project Addresses
 
-National nutrition information systems in low- and middle-income countries are typically built around a single data source: a household survey, or a routine HMIS, and focused on a single indicator category (usually child anthropometry). The result is fragmented monitoring that cannot link nutrition outcomes to the determinants that drive them.
+National nutrition information systems in low- and middle-income countries are typically built around a single data source: a household survey, or routine HMIS data, and focused on a single indicator category (usually child anthropometry). The result is fragmented monitoring that cannot link nutrition outcomes to the determinants that drive them.
 
 This project takes a different approach. It organizes global public data across all four levels of the **UNICEF 2020 Conceptual Framework on the Determinants of Maternal and Child Nutrition**: outcomes, immediate determinants, underlying determinants, and enabling environment - and asks a single practical question:
 
@@ -38,27 +38,27 @@ The UNICEF Conceptual Framework (2020) is the global standard for understanding 
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│ LAYER 4: ENABLING ENVIRONMENT                                   │
+│ LEVEL 4: ENABLING ENVIRONMENT                                   │
 │   Governance (policies, budgets, laws, multisectoral coord.)    │
 │   Resources (health workers, social protection, financing)      │
 │   Norms (gender equity, food environment, breastfeeding support)│
 ├─────────────────────────────────────────────────────────────────┤
-│ LAYER 3: UNDERLYING DETERMINANTS                                │
+│ LEVEL 3: UNDERLYING DETERMINANTS                                │
 │   Food (food security — FCS, PoU, FIES, MDD-W)                 │
 │   Services (ANC, skilled birth attendance, SAM treatment, VAS)  │
 │   WASH (safely managed water and sanitation)                    │
 ├─────────────────────────────────────────────────────────────────┤
-│ LAYER 2: IMMEDIATE DETERMINANTS                                 │
+│ LEVEL 2: IMMEDIATE DETERMINANTS                                 │
 │   Diets (IYCF — MDD, MMF, MAD, dietary diversity)              │
 │   Care (EBF, EIBF, continued BF, feeding practices)            │
 ├─────────────────────────────────────────────────────────────────┤
-│ LAYER 1: NUTRITION OUTCOMES (WHA 6 TARGETS)                     │
+│ LEVEL 1: NUTRITION OUTCOMES (WHA 6 TARGETS)                     │
 │   Stunting · Wasting · Overweight · Anaemia (WRA)               │
 │   Exclusive Breastfeeding · Low Birth Weight                    │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
-A national nutrition information system that only tracks Layer 1 outcomes cannot identify why those outcomes are not improving. This project demonstrates what a full four-layer monitoring system looks like in practice.
+A national nutrition information system that only tracks Level 1 outcomes cannot identify why those outcomes are not improving. This project demonstrates what a full four-level monitoring system looks like in practice.
 
 ---
 
@@ -69,54 +69,54 @@ A national nutrition information system that only tracks Layer 1 outcomes cannot
 - **Minimum Dietary Diversity (MDD-C)** — now SDG indicator 2.2.4 (approved March 2025), with only 34% of children 6-23 months meeting the ≥5/8 food groups threshold. Most countries lack current data on this indicator.
 - **SAM treatment coverage** shows the largest data gaps across all indicators — fewer than half of countries have estimates from the past 5 years. Administrative data from NutriDash is not yet standardized globally.
 - **Enabling environment data is the most fragmented layer** — no single source covers governance, resources, and norms with comparable country coverage. The data gap analysis identifies specific indicators countries should be tracking but currently are not.
-- **A suppressor variable pattern** is visible in the cross-layer analysis: exclusive breastfeeding shows a counterintuitive positive association with stunting at the country level, driven by confounding with poverty and food insecurity — high-burden countries have both poor nutrition outcomes and high breastfeeding rates due to the absence of formula alternatives. Multivariate analysis controlling for food security resolves this.
+- **A suppressor variable pattern** is visible in the cross-level analysis: exclusive breastfeeding shows a counterintuitive positive association with stunting at the country level, driven by confounding with poverty and food insecurity — high-burden countries have both poor nutrition outcomes and high breastfeeding rates due to the absence of formula alternatives. Multivariate analysis controlling for food security resolves this.
 
 ---
 
 ## Dashboard Figures
 
-### Layer 1: WHA 6 Target Trends by Region
+### Level 1: WHA 6 Target Trends by Region
 ![WHA 6 Targets](outputs/figures/fig01_wha6_regional_trends.png)
 
-### Layer 1: Country Progress Classification
+### Level 1: Country Progress Classification
 ![Country Progress](outputs/figures/fig02_country_progress_classification.png)
 
-### Layer 1 & 2: Data Recency Heatmap
+### Level 1 & 2: Data Recency Heatmap
 ![Data Recency](outputs/figures/fig03_data_recency_heatmap.png)
 
-### Layer 2: IYCF Regional Dashboard
+### Level 2: IYCF Regional Dashboard
 Global medians (most recent data): Early BF Initiation 52.9% · Exclusive BF 43.2% · 
 Minimum Dietary Diversity 26.9% · Minimum Meal Frequency 51.0% · Minimum Acceptable Diet 14.6%
 
 *Full regional breakdown available in the Tableau Public dashboard (link above).*
 
-### Layer 2 & 3: Cross-Layer — EBF vs Stunting
+### Level 2 & 3: Cross-Layer — EBF vs Stunting
 ![EBF vs Stunting](outputs/figures/fig06_cross_layer_ebf_stunting.png)
 
-### Layer 4: Enabling Environment Toolkit
+### Level 4: Enabling Environment Toolkit
 ![Enabling Environment](outputs/figures/fig07_enabling_environment_toolkit.png)
 
-### All Layers: NIS Data Gap Heatmap
+### All Levels: NIS Data Gap Heatmap
 ![Data Gap Heatmap](outputs/figures/fig08_comprehensive_gap_heatmap.png)
 
-### All Layers: NIS Readiness by Region
+### All Levels: NIS Readiness by Region
 ![NIS Readiness](outputs/figures/fig09_nis_readiness_by_region.png)
 
 
 
 ## Data Sources
 
-| Layer | Indicator Domain | Source | Access |
+| Level | Indicator Domain | Source | Access |
 |---|---|---|---|
-| Layer 1 | WHA 6 Targets (stunting, wasting, overweight, anaemia, EBF, LBW) | UNICEF SDMX API via `unicefdata` Python package | Public |
-| Layer 2 | IYCF — Diets (MDD, MMF, MAD, EIBF, continued BF) | UNICEF SDMX API | Public |
-| Layer 2 | IYCF — Care (EBF, early initiation, breastfeeding practices) | UNICEF SDMX API | Public |
-| Layer 3 | Food security (PoU, MDD-C, MDD-W, cost of healthy diet) | FAO SOFI 2025 Data Annex | Public download |
-| Layer 3 | Health services (ANC, SBA, DTP3, VAS, SAM treatment) | UNICEF SDMX API | Public |
-| Layer 3 | WASH (safely managed water and sanitation) | WHO/UNICEF JMP | Public download |
-| Layer 4 | Policy and governance | WHO GINA; WHO BF Scorecard | Public download |
-| Layer 4 | Social protection | ILO ILOSTAT | Public download |
-| Layer 4 | Food fortification legislation | Food Fortification Initiative | Public |
+| Level 1 | WHA 6 Targets (stunting, wasting, overweight, anaemia, EBF, LBW) | UNICEF SDMX API via `unicefdata` Python package | Public |
+| Level 2 | IYCF — Diets (MDD, MMF, MAD, EIBF, continued BF) | UNICEF SDMX API | Public |
+| Level 2 | IYCF — Care (EBF, early initiation, breastfeeding practices) | UNICEF SDMX API | Public |
+| Level 3 | Food security (PoU, MDD-C, MDD-W, cost of healthy diet) | FAO SOFI 2025 Data Annex | Public download |
+| Level 3 | Health services (ANC, SBA, DTP3, VAS, SAM treatment) | UNICEF SDMX API | Public |
+| Level 3 | WASH (safely managed water and sanitation) | WHO/UNICEF JMP | Public download |
+| Level 4 | Policy and governance | WHO GINA; WHO BF Scorecard | Public download |
+| Level 4 | Social protection | ILO ILOSTAT | Public download |
+| Level 4 | Food fortification legislation | Food Fortification Initiative | Public |
 
 All data sources are freely available. No data was purchased or licensed.
 
@@ -173,20 +173,13 @@ All data sources are freely available. No data was purchased or licensed.
 *[Link to be added upon publication to Tableau Public]*
 
 Dashboard pages:
-1. **Framework Overview** — four-layer UNICEF Conceptual Framework with indicator mapping
-2. **WHA 6 Targets (Layer 1)** — world map + regional trend lines + 2030 target progress
-3. **Immediate Determinants (Layer 2)** — IYCF regional coverage dashboard
-4. **Underlying Determinants (Layer 3)** — food security, health services, WASH coverage
-5. **Data Gap Assessment** — country-level NIS readiness heatmap across all layers
-6. **Enabling Environment Toolkit (Layer 4)** — interactive policy indicator reference
+1. **Framework Overview** — four-level UNICEF Conceptual Framework with indicator mapping
+2. **WHA 6 Targets (Level 1)** — world map + regional trend lines + 2030 target progress
+3. **Immediate Determinants (Level 2)** — IYCF regional coverage dashboard
+4. **Underlying Determinants (Level 3)** — food security, health services, WASH coverage
+5. **Data Gap Assessment** — country-level NIS readiness heatmap across all levels
+6. **Enabling Environment Toolkit (Level 4)** — interactive policy indicator reference
 
----
-
-## Context
-
-This project was developed as a portfolio demonstration alongside an application to the UNICEF Nutrition Monitoring Guide Consultant position (ToR reference TMC0005123, August 2026). The consultancy calls for the development of a global guide consolidating nutrition indicators for national information systems across the same thematic domains analyzed here.
-
-The analytical approach — framing indicator selection and gap analysis within the UNICEF Conceptual Framework — reflects the methodological structure of the ToR deliverables: conceptual framework (scope item 1), finalized indicator list with selection criteria (scope item 2), and indicator reference sheets (scope item 3).
 
 ---
 
