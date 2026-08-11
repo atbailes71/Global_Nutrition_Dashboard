@@ -73,7 +73,7 @@ A national nutrition information system that only tracks Level 1 outcomes cannot
 
 ---
 
-## Dashboard Figures
+## Python Analysis Outputs
 
 ### Level 1: WHA 6 Target Trends by Region
 ![WHA 6 Targets](outputs/figures/fig01_wha6_regional_trends.png)
