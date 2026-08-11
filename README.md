@@ -185,6 +185,7 @@ Dashboard pages:
 **Adam T. Bailes, MPH**
 Senior Nutrition and Public Health Analyst
 20+ years experience — UNICEF, Save the Children, World Bank, IOM
+
 Countries: Ethiopia, Zimbabwe, Zambia, Timor-Leste, Malawi, Sierra Leone
 
 GitHub: [github.com/atbailes71](https://github.com/atbailes71)
