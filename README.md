@@ -25,7 +25,7 @@ The answer, for most countries, is no. This project makes that gap visible.
 
 This project was developed as part of an active job search in global health data and nutrition analytics roles, where demonstrating fluency with international nutrition indicator frameworks and data systems is directly relevant to the positions being pursued.
 
-The analytical approach — framing indicator selection and gap analysis within the UNICEF Conceptual Framework — reflects the methodological structure of the ToR deliverables: conceptual framework (scope item 1), finalized indicator list with selection criteria (scope item 2), and indicator reference sheets (scope item 3).
+The analytical approach — framing indicator selection and gap analysis within the UNICEF Conceptual Framework — reflects the methodological structure of indicator guide development: conceptual framework design, indicator list finalization with selection criteria, and indicator reference sheet production.
 
 ---
 
